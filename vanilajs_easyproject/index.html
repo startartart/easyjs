@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menubar.css">
-    <link rel="stylesheet" href="button.css">
+    <script src="https://kit.fontawesome.com/03503713ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/menubar.css">
+    <link rel="stylesheet" href="./css/unit1.css">
+    <link rel="stylesheet" href="./css/unit2.css">
+    <link rel="stylesheet" href="./css/unit3.css">
     <title>Document</title>
 </head>
 <body>
     <div class="main-container">
         <div class="sub-menubar">
             <nav class="navMenu">
-                <a href="#">Color Flipper</a>
-                <a href="#">Blog</a>
-                <a href="#">Work</a>
-                <a href="#">About</a>
+                <a href="#unit1">Color Flipper</a>
+                <a href="#unit2">Counter</a>
+                <a href="#unit3">Review carousel</a>
+                <a href="#unit4">About</a>
                 <div class="dot"></div>
               </nav>
         </div>
-        <div class="sub-menubar">
+        <div id="unit1" class="sub-menubar">
             <div class='unit1'>
                 <div class='unit1_set_button'>
                     <button id="btn_simple" class="w-btn w-btn-indigo" type="button" modeSimple();>Simple</button>
@@ -28,8 +31,43 @@
                 <button id="btn" class="w-btn w-btn-indigo" type="button">Click me</button>
             </div>
         </div>
+        <div id="unit2" class="sub-menubar">
+            <div class='unit2'>
+                <h1>Counter</h1><br><span class="counter">0</span><br>
+                <div class='unit2_set_button'>
+                    <button class="w-btn w-btn-indigo btn_decrease" type="button" modeSimple();>Decrease</button>
+                    <button class="w-btn w-btn-indigo btn_reset" type="button">Reset</button>
+                    <button class="w-btn w-btn-indigo btn_increase" type="button">Increase</button></div>
+            </div>
+        </div>
+        <div id="unit3" class="sub-menubar">
+            <div class='unit3'>
+                <h1>Our Reviews</h1>
+                <div class="img-container">
+                    <img src="./unit3/p3.jpg" id="user-img" alt="" />
+                </div>
+                <div class="text-container">
+                    <p id="name">Name</p>
+                    <p id="job">Job</p>
+                    <p id="contents">Contents</p>
+                </div>
+                <div class="button-container">
+                    <button class="prev-btn">
+                        <i class="fas fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="fas fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class='unit3_set_button'>
+                    <button class="w-btn w-btn-indigo btn_surprises" type="button">Surprise Me</button></div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="./unit1/colorflipper.js"></script>
 <script src="./unit1/simple_color_names.js"></script>
+<script src="./unit2/counter.js"></script>
+<script src="./unit3/reviews.js"></script>
+<script src="./unit3/review_carousel.js"></script>
 </html>

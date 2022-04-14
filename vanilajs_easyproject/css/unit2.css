@@ -1,0 +1,23 @@
+.unit2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.unit2_set_button {
+    padding: 40px;
+}
+
+.w-btn {
+    margin: 20px;
+}
+
+.unit2 h1 {
+    margin: 50px;
+    font-size: 50px;
+}
+
+.unit2 span {
+    font-size: 30px;
+    color: blue;
+}
