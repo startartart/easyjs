@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+body {
+    text-align: center;
+    display: flex;
+}
+
+.main-container {
+    margin: 0 auto;
+    display: relative;
+    background-color: gray;
+    width: 1000px;
+    height: 800px;
+}
+
+.preface {
+    margin-top: 100px;
+    font-family: 'Ms Madi', cursive;
+}
+
+.question-container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:900px;
+    height: auto;
+}
+
+.question {
+
+    display: grid;
+    grid-template-columns: 80% 20%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+

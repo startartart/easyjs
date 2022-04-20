@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/03503713ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="./css/menubar.css">
     <link rel="stylesheet" href="./css/unit1.css">
     <link rel="stylesheet" href="./css/unit2.css">
     <link rel="stylesheet" href="./css/unit3.css">
+    <link rel="stylesheet" href="./css/unit6.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,11 +20,10 @@
                 <a href="#unit1">Color Flipper</a>
                 <a href="#unit2">Counter</a>
                 <a href="#unit3">Review carousel</a>
-                <a href="#unit4">Responsive Navbar</a>
-                <a href="#unit5">Sidebar</a>
                 <a href="#unit6">Modal</a>
                 <a href="#unit7">FAQ page</a>
                 <a href="#unit8">menu page</a>
+                <a href="/main.html">MAIN</a>
               </nav>
         </div>
         <div id="unit1" class="sub-menubar">
@@ -66,6 +67,19 @@
                     <button class="w-btn w-btn-indigo btn_surprises" type="button">Surprise Me</button></div>
             </div>
         </div>
+        <div id="unit6" class="sub-menubar">
+            <div class='unit6'>
+                <div class="modal-main">
+                        <h3>Modal Project</h3>
+                        <button class="w-btn w-btn-indigo btn_modal_open" type="button">OPEN MODAL</button>
+                </div>
+                <div class="modal-sub">
+                    <button class="close-btn btn_modal_close"><i class="fas fa-times"></i></button>
+                    <h3>Modal Contents</h3>
+                </div>
+
+            </div>
+        </div>
     </div>
 </body>
 <script src="./unit1/colorflipper.js"></script>
@@ -73,4 +87,5 @@
 <script src="./unit2/counter.js"></script>
 <script src="./unit3/reviews.js"></script>
 <script src="./unit3/review_carousel.js"></script>
+<script src="./unit6/modal.js"></script>
 </html>
